@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main1"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/select1"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:background="#00000000"
+        android:textSize="20dp"
+        android:text="資 料 查 詢" />
+
+    <Button
+        android:id="@+id/select2"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:background="#00000000"
+        android:textSize="20dp"
+        android:text="地 圖 觀 看" />
+
+    <Button
+        android:id="@+id/select3"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:background="#00000000"
+        android:textSize="20dp"
+        android:text="線 上 詢 問" />
+
+</LinearLayout>
